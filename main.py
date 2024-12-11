@@ -28,58 +28,58 @@ print(colored_banner)
 select = input(f'{color_code["red"]}[+]{color_code["bold"]} выбрать >{color_code["yellow"]} ')
 
 if select == '1':
-  subprocess.run(['python', 'search/base.py'])
+  subprocess.run(['python', 'base.py'])
 
 elif select == '2':
-  subprocess.run(['python', 'search/number.py'])
+  subprocess.run(['python', 'number.py'])
     
 elif select == '3':
-  subprocess.run(['python', 'search/tokenbot.py'])
+  subprocess.run(['python', 'tokenbot.py'])
     
 elif select == '4':
-  subprocess.run(['python', 'search/discord.py'])
+  subprocess.run(['python', 'discord.py'])
 
 elif select == '5':
-  subprocess.run(['python', 'search/fullname.py'])
+  subprocess.run(['python', 'fullname.py'])
 
 elif select == '6':
-  subprocess.run(['python', 'search/telegram.py'])
+  subprocess.run(['python', 'telegram.py'])
 
 elif select == '7':
-  subprocess.run(['python', 'search/password.py'])
+  subprocess.run(['python', 'password.py'])
 
 elif select == '8':
-  subprocess.run(['python', 'search/ip.py'])
+  subprocess.run(['python', 'ip.py'])
 
 elif select == '9':
-  subprocess.run(['python', 'search/auto.py'])
+  subprocess.run(['python', 'auto.py'])
 
 elif select == '10':
-  subprocess.run(['python', 'search/vk.py'])
+  subprocess.run(['python', 'vk.py'])
 
 elif select == '11':
-  subprocess.run(['python', 'tool/banword.py'])
+  subprocess.run(['python', 'banword.py'])
 
 elif select == '12':
-  subprocess.run(['python', 'tool/bomber.py'])
+  subprocess.run(['python', 'bomber.py'])
 
 elif select == '13':
-  subprocess.run(['python', 'tool/snoser.py'])
+  subprocess.run(['python', 'snoser.py'])
 
 elif select == '14':
-  subprocess.run(['python', 'tool/stealer.py'])
+  subprocess.run(['python', 'stealer.py'])
 
 elif select == '15':
-  subprocess.run(['python', 'tool/obfuscate.py'])
+  subprocess.run(['python', 'obfuscate.py'])
 
 elif select == '16':
-  subprocess.run(['python', 'tool/ddos.py'])
+  subprocess.run(['python', 'ddos.py'])
 
 elif select == '17':
-  subprocess.run(['python', 'tool/parsing.py'])
+  subprocess.run(['python', 'parsing.py'])
 
 elif select == '18':
-  subprocess.run(['python', 'tool/deepfake.py'])
+  subprocess.run(['python', 'deepfake.py'])
 
 elif select == '19':
  print(Colorate.Horizontal(Colors.red_to_white, (""" 
